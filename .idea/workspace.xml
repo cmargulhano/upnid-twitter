@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c47a2640-43c6-4b44-a662-c500b01105b4" name="Default Changelist" comment="" />
+    <list default="true" id="c47a2640-43c6-4b44-a662-c500b01105b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.ignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +18,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WzMR098go2UHSFtjLTTEReG8IQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="cursive.last.file.extension./home/claudio/KORADI/Studies/Clojure/upnid-twitter/src" value="clj" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/migrations" />
@@ -29,7 +36,7 @@
       <recent name="$PROJECT_DIR$/src/upnid_twitter" />
     </key>
   </component>
-  <component name="ReplState" timestamp="1580187679892">{:repl-history {:ide [], :local [{:command &quot;(get (System/getenv) \&quot;DATABASE_URL\&quot;)&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(get (System/getenv) \&quot;LANGUAGE\&quot;)&quot;, :offset 32, :ns &quot;user&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1580187988607">{:repl-history {:ide [], :local [{:command &quot;(get (System/getenv) \&quot;DATABASE_URL\&quot;)&quot;, :offset 36, :ns &quot;user&quot;} {:command &quot;(get (System/getenv) \&quot;LANGUAGE\&quot;)&quot;, :offset 32, :ns &quot;user&quot;}], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -94,5 +101,16 @@
       <updated>1580147957868</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
