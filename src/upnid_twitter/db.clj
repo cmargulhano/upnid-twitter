@@ -4,6 +4,6 @@
 (defdb db (mysql
             { :classname "com.mysql.jdbc.Driver"
              :subprotocol "mysql"
-             :subname "//localhost/upnid"
-             :user "root"
-             :password "root"}))
+             :subname (get (System/getenv) "DATABASE_URL")
+             :user (get (System/getenv) "DATABASE_USER")
+             :password (get (System/getenv) "DATABASE_PASSWORD")}))
